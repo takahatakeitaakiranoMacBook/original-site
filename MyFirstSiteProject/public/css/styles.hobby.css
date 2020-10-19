@@ -1,0 +1,180 @@
+
+ header {
+   overflow: hidden;
+ }
+
+ body {
+   margin: 0;
+ }
+
+ 
+
+ .example > img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+/* 
+ h1 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  margin: 0;
+  font-size: 55px;
+  line-height: 65px;
+  color: black;
+  font-family: "sans-serif";
+  padding-top: 40px;
+  width: 650px;
+}
+
+h1 p {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  margin: 0;
+  padding-bottom: 40px;
+  width: 650px;
+} */
+
+.example h1 {
+  /* position: absolute;
+  top: 100px;
+  left: 50px; */
+  font-size: 88px;
+  line-height: 75px;
+  margin: 0;
+  color: white;
+  font-family: "sans-serif";
+  text-shadow: 1px 1px 1px black;
+}
+
+.example p {
+  /* position: absolute;
+  top: 180px;
+  left: 50px; */
+  margin: 0;
+  font-size: 35px;
+  color: white;
+  font-family: "sans-serif";
+  text-shadow: 1px 1px 1px black;
+}
+
+.Skatbord > img {
+  width: 50%;
+  height: 50%;
+  padding: 15px;
+  position: relative;
+  /* transform: rotate; */
+  left: 10px;
+  top: 7px;
+}
+
+.Skatbord {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  padding-top: 30px;
+  /* position: relative; */
+  /* left: 152px; */
+}
+
+
+.Moves a {
+  padding-top: 40px;
+  color: rgb(26, 24, 25);
+}
+
+
+.Moves > img {
+  width: 50%;
+  height: 50%;
+  transform: rotate(90deg);
+  padding: 15px;
+}
+
+.Moves a:hover {
+  opacity: 0.3;
+}
+
+.Moves {
+  position: absolute;
+  top: 700px;
+  left: 50px;
+  padding-top: 200px;
+  /* position: relative; */
+}
+
+
+
+#menu {
+  position: absolute;
+  top: 80px;
+  right: 60px;
+  margin: 0;
+  color: white;
+  font-family: "sans-serif";
+  background: white;
+  text-align: center;
+  border: solid 3px black;
+  padding: 17px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+ a {
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 50px;
+  color: pink;
+}
+
+ a:hover {
+  opacity: 0.3;
+}
+
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  background: #ee89a7;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  background: white;
+  padding: 50px 0;
+}

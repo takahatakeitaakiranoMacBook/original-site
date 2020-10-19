@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+}
+
+.example > img {
+  height: 100%;
+  width: 100%;
+}
+
+.example > h1 {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  font-size: 105px;
+  line-height: 75px;
+  margin: 0;
+  color: white;
+  font-family: "sans-serif";
+  text-shadow: 1px 1px 1px black;
+}
+
+.example > p {
+  position: absolute;
+  top: 580px;
+  left: 50px;
+  margin: 0;
+  font-size: 55px;
+  color: white;
+  font-family: "sans-serif";
+  text-shadow: 1px 1px 1px black;
+}
+
+.example > #menu {
+  position: absolute;
+  top: 80px;
+  right: 60px;
+  margin: 0;
+  color: white;
+  font-family: "sans-serif";
+  background: white;
+  text-align: center;
+  border: solid 3px black;
+  padding: 17px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.example a {
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 50px;
+  color: pink;
+}
+
+.example a:hover {
+  opacity: 0.3;
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  background: #ee89a7;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  background: white;
+  margin: 0;
+  padding: 50px 0;
+}
